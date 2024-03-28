@@ -28,6 +28,7 @@ export type Pokemon = {
         back_shiny: string;
         back_shiny_female: string;
         front_default: string;
+        other: any;
         // Aggiungi altre proprietà se necessario
     };
     stats: PokemonStat[];

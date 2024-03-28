@@ -61,7 +61,7 @@
 body {
   min-height: 100vh;
   color: black;
-  background: white;
+  background: rgb(126, 17, 17);
   transition:
     color 0.5s,
     background-color 0.5s;

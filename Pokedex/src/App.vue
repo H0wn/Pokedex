@@ -4,9 +4,11 @@
 </script>
 
 <template>
-  <div class="container">
-    <RouterView/>
-  </div>
+  <Suspense>
+    <div class="container">
+      <RouterView/>
+    </div>
+  </Suspense>
 </template>
 
 <style scoped lang="scss">

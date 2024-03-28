@@ -19,11 +19,11 @@
 </script>
 <template>
 
-  <RouterLink :to="{ path : `/${number}`}">
+  <RouterLink :to="{ path : `/pokemons/${number}`}">
     <div class="info-container">
-      <div class="">
-        <p>N.°: {{number}}</p>   
+      <div class="info">
         <img :src="img" :alt="name+'-sprite'">
+        <p>N.°: {{number}}</p>   
       </div>
       <h3 >{{ name }}</h3>
     </div>
@@ -33,7 +33,12 @@
 
 <style scoped lang="scss">
   .info-container{
-    padding: 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  .info{
     display: flex;
     justify-content: space-between;
     align-items: center;
