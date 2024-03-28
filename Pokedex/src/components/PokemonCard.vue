@@ -1,7 +1,7 @@
 
 <script setup lang="ts">
   import { ref, watchEffect } from "vue"
-  import get, { type AxiosRequestConfig } from 'axios'
+  import get from 'axios'
   import { RouterLink } from "vue-router";
   const props = defineProps({
     page : String
